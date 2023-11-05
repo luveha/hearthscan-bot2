@@ -1,0 +1,140 @@
+{
+    "sets": {
+        "Dream":{
+            "name":"Dream",
+            "code":"DREAM",
+            "stringShort":"Legacy"
+        },
+        "Fractured in Alterac Valley":{
+            "name":"Fractured in Alterac Valley",
+            "shorts":[
+                "av", "fiav", "fav"
+            ],
+            "code":"AV",
+            "stringShort":"FAV"
+        },
+        "Onyxia's Lair":{
+            "name":"Onyxia's Lair",
+            "code":"ONY",
+            "stringShort":"OL"
+        },
+        "Voyage to the Sunken City":{
+            "name":"Voyage to the Sunken City",
+            "shorts":[
+                "tsc", "vttsc", "vtsc", "sc"
+            ],
+            "code":"TSC",
+            "stringShort":"VttSC"
+        },
+        "Throne of the Tides":{
+            "name":"Throne of the Tides",
+            "code":"TID",
+            "stringShort":"TofT"
+        },
+        "Murder at Castle Nathria":{
+            "name":"Murder at Castle Nathria",
+            "shorts":[
+                "mcn", "cn", "rev"
+            ],
+            "code":"REV",
+            "stringShort":"MCN"
+        },
+        "Maw and Disorder":{
+            "name":"Maw and Disorder",
+            "code":"MAW",
+            "stringShort":"MaW"
+        },
+        "March of the Lich King":{
+            "name":"March of the Lich King",
+            "shorts":[
+                "mlk"
+            ],
+            "code":"RLK",
+            "stringShort":"MotLK"
+        },
+        "Return to Naxxramas":{
+            "name":"Return to Naxxramas",
+            "code":"NX2",
+            "stringShort":"RtN"
+        },
+        "Festival of Legends":{
+            "name":"Festival of Legends",
+            "shorts":[
+                "fol"
+            ],
+            "code":"ETC",
+            "stringShort":"FoL"
+        },
+        "Audiopocalypse":{
+            "name":"Audiopocalypse",
+            "code":"JAM",
+            "stringShort":"Aud"
+        },
+        "TITANS":{
+            "name":"TITANS",
+            "shorts":[
+                "ttn"
+            ],
+            "code":"TTN",
+            "stringShort":"TTN"
+        },
+        "Fall of Ulduar":{
+            "name":"Fall of Ulduar",
+            "code":"YOG",
+            "stringShort":"FoU"
+        }
+    },
+    "battlegrounds":{
+        "battlegrounds":{"name":"Battlegrounds","short":"BG"},
+        "TB":{"name":"BaconShop","short":"TB_BaconShop"},
+        "BG26":{"name":"HeroSkin","short":"BG20_HERO"}
+    },
+    "legacies":{
+        "LegacyCS1":{
+            "name":"Legacy",
+            "short":"CS1"
+        },
+        "LegacyCS2":{
+            "name":"Legacy",
+            "short":"CS2"
+        },
+        "LegacyEX1":{
+            "name":"Legacy",
+            "short":"EX1"
+        },
+        "Legacytt":{
+            "name":"Legacy",
+            "short":"tt"
+        },
+        "LegacyDS1":{
+            "name":"Legacy",
+            "short":"DS1"
+        }
+    },
+    "maybes":{
+        "KARA":{
+            "comment":"Contains mostly enchantment but also like 'Mark Moonwalker' "
+        }
+    },
+    "hero":{"hero":{"name":"hero","short":"hero"}},
+    "classes": {
+        "Neutral": "N",
+        "Druid": "DR",
+        "Hunter": "HT",
+        "Mage": "MA",
+        "Paladin": "PL",
+        "Priest": "PR",
+        "Rogue": "RO",
+        "Shaman": "SH",
+        "Warlock": "WL",
+        "Warrior": "WR",
+        "Demon Hunter": "DH",
+        "Demonhunter": "DH",
+        "Dream": "Dream",
+        "Kabal (MPW)": "Kabal (MPW)",
+        "Lotus (RSD)": "Lotus (RSD)",
+        "Goons (HPW)": "Goons (HPW)",
+        "Deathknight": "DK",
+        "Death Knight": "DK"
+    }
+}
