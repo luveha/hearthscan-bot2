@@ -111,6 +111,7 @@ for k in cards:
                             "atk": nullTest(i,'attack'),
                             "hp": durORhp(i),
                             "cost": nullTest(i,'cost'),
+                            "desc": cleanUp(i,'text'),
                             "type": f"{i['type']}",
                             "subType": f"{subtype(i)}",
                             "image": f"{toImage(i['cardId'])}",
