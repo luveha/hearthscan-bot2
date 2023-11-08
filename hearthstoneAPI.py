@@ -5,7 +5,7 @@ import json
 with open('credentials.json') as creds:
     keys = json.load(creds)
 
-url = "https://omgvamp-hearthstone-v1.p.rapidapi.com/cards/sets/titans"
+url = "https://omgvamp-hearthstone-v1.p.rapidapi.com/cards"
 
 headers = {
 	"X-RapidAPI-Key": keys['X-RapidAPI-Key'],

@@ -1,9 +1,8 @@
 import json
+from loadJson import *
 
-with open('data/allData.json') as f1:
-    cards = json.load(f1)
-with open('data/constants.json') as f2:
-    classes = json.load(f2)
+cards = loadJson('data/allData')
+classes = loadJson('data/constants')
 
 #Defines
 v = []
