@@ -1,88 +1,86 @@
 {
     "sets": {
-        "Dream":{
-            "name":"Dream",
-            "code":"DREAM",
-            "stringShort":"Legacy"
-        },
-        "Fractured in Alterac Valley":{
-            "name":"Fractured in Alterac Valley",
-            "shorts":[
-                "av", "fiav", "fav"
-            ],
-            "code":"AV",
-            "stringShort":"FAV"
-        },
-        "Onyxia's Lair":{
-            "name":"Onyxia's Lair",
-            "code":"ONY",
-            "stringShort":"OL"
-        },
-        "Voyage to the Sunken City":{
-            "name":"Voyage to the Sunken City",
-            "shorts":[
-                "tsc", "vttsc", "vtsc", "sc"
-            ],
-            "code":"TSC",
-            "stringShort":"VttSC"
-        },
-        "Throne of the Tides":{
-            "name":"Throne of the Tides",
-            "code":"TID",
-            "stringShort":"TofT"
-        },
-        "Murder at Castle Nathria":{
-            "name":"Murder at Castle Nathria",
-            "shorts":[
-                "mcn", "cn", "rev"
-            ],
-            "code":"REV",
-            "stringShort":"MCN"
-        },
-        "Maw and Disorder":{
-            "name":"Maw and Disorder",
-            "code":"MAW",
-            "stringShort":"MaW"
-        },
-        "March of the Lich King":{
-            "name":"March of the Lich King",
-            "shorts":[
-                "mlk"
-            ],
-            "code":"RLK",
-            "stringShort":"MotLK"
-        },
-        "Return to Naxxramas":{
-            "name":"Return to Naxxramas",
-            "code":"NX2",
-            "stringShort":"RtN"
-        },
-        "Festival of Legends":{
-            "name":"Festival of Legends",
-            "shorts":[
-                "fol"
-            ],
-            "code":"ETC",
-            "stringShort":"FoL"
-        },
-        "Audiopocalypse":{
-            "name":"Audiopocalypse",
-            "code":"JAM",
-            "stringShort":"Aud"
-        },
-        "TITANS":{
-            "name":"TITANS",
-            "shorts":[
-                "ttn"
-            ],
-            "code":"TTN",
-            "stringShort":"TTN"
-        },
-        "Fall of Ulduar":{
-            "name":"Fall of Ulduar",
-            "code":"YOG",
-            "stringShort":"FoU"
-        }
+        "Dream":{"name":"Dream","code":"DREAM","stringShort":"Legacy"},
+
+        "Curse of Naxxramas":{"name":"Curse of Naxxramas", "shorts":["nax","naxx"],"code":"FP1","stringShort":"Nax"},
+
+        "Goblins vs Gnomes":{"name":"Goblins vs Gnomes", "shorts":["gvg"],"code":"GVG","stringShort":"GvG"},
+
+        "Blackrock Mountain":{"name":"Blackrock Mountain", "shorts":["brm"],"code":"BRM","stringShort":"BRM"},
+
+        "The Grand Tournament":{"name":"The Grand Tournament", "shorts":["tgt"],"code":"AT","stringShort":"TGT"},
+
+        "The League of Explorers":{"name":"The League of Explorers", "shorts":["loe"],"code":"LOE","stringShort":"LoE"},
+
+        "Whispers of the Old Gods":{"name":"Whispers of the Old Gods", "shorts":["tog", "wog", "wotog"],"code":"OG","stringShort":"WotOG"},
+
+        "One Night in Karazhan":{"name":"One Night in Karazhan", "shorts":[],"code":"KAR","stringShort":"ONiK"},
+
+        "Mean Streets of Gadgetzan":{"name":"Mean Streets of Gadgetzan", "shorts":["msg","msog"],"code":"CFM","stringShort":"MSoG"},
+
+        "Journey to Un'Goro":{"name":"Journey to Un'Goro", "shorts":[],"code":"UNG","stringShort":"JtUG"},
+
+        "Knights of the Frozen Throne":{"name":"Knights of the Frozen Throne", "shorts":[],"code":"ICC","stringShort":"KotFT"},
+
+        "Kobolds & Catacombs":{"name":"Kobolds & Catacombs", "shorts":["kc", "kac", "knc"],"code":"LOOT","stringShort":"KnC"},
+
+        "The Witchwood":{"name":"The Witchwood", "shorts":["ww"],"code":"GIL","stringShort":"WW"},
+
+        "The Boomsday Project":{"name":"The Boomsday Project", "shorts":["bp", "tbp", "bdp", "tbdp", "bd"],"code":"BOT","stringShort":"BP"},
+
+        "Rastakhan's Rumble":{"name":"Rastakhan's Rumble", "shorts":["rr"],"code":"TRL","stringShort":"RR"},
+
+        "Rise of Shadows":{"name":"Rise of Shadows", "shorts":["ros"],"code":"DAL","stringShort":"RoS"},
+
+        "Saviors of Uldum":{"name":"Saviors of Uldum", "shorts":["sou"],"code":"ULD","stringShort":"SoU"},
+
+        "Descent of Dragons":{"name":"Descent of Dragons", "shorts":["dd","dod"],"code":"DRG","stringShort":"DoD"},
+
+        "Galakrond's Awakening":{"name":"Galakrond's Awakening","code":"DRG","stringShort":"YOD"},
+
+        "Ashes of Outland":{"name":"Ashes of Outland", "shorts":["ao","aoo","ashes"],"code":"BT","stringShort":"AoO"},
+
+        "Scholomance Academy":{"name":"Scholomance Academy", "shorts":["sa","scholo"],"code":"SCH","stringShort":"SA"},
+
+        "Madness at the Darkmoon Faire":{"name":"Madness at the Darkmoon Faire", "shorts":["dmf"],"code":"DMF","stringShort":"MaDF"},
+
+        "Darkmoon Races":{"name":"Darkmoon Races","code":"YOP","stringShort":"DR"},
+
+        "Forged in the Barrens":{"name":"Forged in the Barrens","shorts":["fb", "bar", "fitb "], "code":"BAR","stringShort":"FitB"},
+        
+        "Wailing Caverns":{"name":"Wailing Caverns","code":"WC","stringShort":"WC"},
+
+        "United in Stormwind":{"name":"United in Stormwind","shorts":["sw", "uis"],"code":"SW","stringShort":"UiS"},
+
+        "Deadmines":{"name":"Deadmines","code":"DED","stringShort":"DED"},
+
+        "Fractured in Alterac Valley":{"name":"Fractured in Alterac Valley","shorts":["av", "fiav", "fav"],"code":"AV","stringShort":"FAV"},
+
+        "Onyxia's Lair":{"name":"Onyxia's Lair","code":"ONY","stringShort":"OL"},
+
+        "Voyage to the Sunken City":{"name":"Voyage to the Sunken City","shorts":["tsc", "vttsc", "vtsc", "sc"],"code":"TSC","stringShort":"VttSC"},
+
+        "Throne of the Tides":{"name":"Throne of the Tides","code":"TID","stringShort":"TofT"},
+
+        "Murder at Castle Nathria":{"name":"Murder at Castle Nathria","shorts":["mcn", "cn", "rev"],"code":"REV","stringShort":"MCN"},
+        
+        "Maw and Disorder":{"name":"Maw and Disorder","code":"MAW","stringShort":"MaW"},
+
+        "March of the Lich King":{"name":"March of the Lich King","shorts":["mlk"],"code":"RLK","stringShort":"MotLK"},
+
+        "Return to Naxxramas":{"name":"Return to Naxxramas","code":"NX2","stringShort":"RtN"},
+
+        "Festival of Legends":{"name":"Festival of Legends","shorts":["fol"],"code":"ETC","stringShort":"FoL"},
+
+        "Audiopocalypse":{"name":"Audiopocalypse","code":"JAM","stringShort":"Aud"},
+
+        "TITANS":{"name":"TITANS","shorts":["ttn"],"code":"TTN","stringShort":"TTN"},
+
+        "Caverns of Time":{"name":"Caverns of Time","code":"WON","stringShort":"CoT"},
+
+        "Fall of Ulduar":{"name":"Fall of Ulduar","code":"YOG","stringShort":"FoU"},
+
+        "Showdown in the Badlands":{"name":"Showdown in the Badlands","code":"UPCOMING","stringShort":"SitB"}
     },
     "battlegrounds":{
         "battlegrounds":{"name":"Battlegrounds","short":"BG"},
@@ -131,9 +129,9 @@
         "Demon Hunter": "DH",
         "Demonhunter": "DH",
         "Dream": "Dream",
-        "Kabal (MPW)": "Kabal (MPW)",
-        "Lotus (RSD)": "Lotus (RSD)",
-        "Goons (HPW)": "Goons (HPW)",
+        "Kabal": "Kabal (MPW)",
+        "Jade Lotus": "Lotus (RSD)",
+        "Grimy Goons": "Goons (HPW)",
         "Deathknight": "DK",
         "Death Knight": "DK"
     }
