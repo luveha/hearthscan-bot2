@@ -4,17 +4,14 @@ import time
 from time import sleep, strftime, localtime
 import json
 import string
+from loadJson import *
 
 #Sleep time in seconds
-sleep_time = (10)
+sleep_time = (120)
 #Opening JSON file
-with open('data/cards.json') as f1:
-    cards = json.load(f1)
-with open('data/constants.json') as f2:
-    constants = json.load(f2)
-#Load credentials
-with open('credentials.json') as creds:
-    keys = json.load(creds)
+cards = loadJson("data/cards")
+constants = loadJson("data/constants")
+keys = loadJson("credentials")
 
 reddit = praw.Reddit(
     client_id= keys['client_id'],
@@ -29,16 +26,18 @@ responseList = []
 subreddit = reddit.subreddit(keys['subreddit'])
 print(reddit.user.me())
 
+Nuller = "null"
 
 def response_formatting(x):
     topDeckID = x['name'].lower().replace(" ", "-")
-    wikiID = string.capwords(x['name'].lower()).replace(" ", "_")
+    #Needs both capword and tilte since title capitalized after -
+    wikiID = string.capwords(x['name'].lower()).replace(" ", "_").title()
     #x['hearthpwnID'] where 2 is
     returnVal = f"""* [{x['name']}]({x['image']}) {x['class']} {x['type']} {x['rarity']} {constants['sets'][x['set']]['stringShort']} ^[HP](https://www.hearthpwn.com/cards/2), ^[TD](https://www.hearthstonetopdecks.com/cards/{topDeckID}/), ^[W](https://hearthstone.wiki.gg/wiki/{wikiID}) \n\n {x['cost']}"""
     if x['type'] == 'Minion':
         returnVal += f"/{x['atk']}/{x['hp']}"
     elif x['type'] == 'Weapon':
-        if x['atk'] != None:
+        if x['atk'] != Nuller:
             returnVal += f"/{x['atk']}/{x['hp']}"
         else:
             returnVal += f"/-/{x['hp']}"
@@ -46,9 +45,9 @@ def response_formatting(x):
         returnVal += f"/-/-"
     elif x['type'] == "Location":
         returnVal += f"/-/{x['hp']}"
-    if x['subType'] != None:
+    if x['subType'] != Nuller:
         returnVal += f" {x['subType']}"
-    if x['desc'] != None:
+    if x['desc'] != Nuller:
         returnVal += f" | {x['desc']}"
     return returnVal
 
@@ -77,7 +76,7 @@ def check_inbox():
 def check_subreddit():
     for comment in subreddit.stream.comments():#skip_existing=True
         if not comment.saved and comment.author !=  keys['username']:
-            responseList = []
+            response_list = []
             max_counter = 0
             comment_body = comment.body.lower().replace('\\','')
             for i in cards:
@@ -85,11 +84,10 @@ def check_subreddit():
                     break
                 if f"[[{cards[i]['name'].lower()}]]" in comment_body:
                     max_counter += 1
-                    responseList.append(response_formatting(cards[i]))
+                    response_list .append(response_formatting(cards[i]))
             response = ""
-            if len(responseList) > 0:
-                for z in responseList:
-                    response += z + "\n\n"
+            if response_list:
+                response = "\n\n".join(response_list)
                 comment.reply(response)
             comment.save()
         else:
