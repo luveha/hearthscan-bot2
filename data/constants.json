@@ -2,6 +2,10 @@
     "sets": {
         "Dream":{"name":"Dream","code":"DREAM","stringShort":"Legacy"},
 
+        "Legacy":{"name":"Legacy", "shorts":[],"code":null,"stringShort":"Core"},
+
+        "Core":{"name":"Core", "shorts":[],"code":"CORE","stringShort":"Core"},
+
         "Curse of Naxxramas":{"name":"Curse of Naxxramas", "shorts":["nax","naxx"],"code":"FP1","stringShort":"Nax"},
 
         "Goblins vs Gnomes":{"name":"Goblins vs Gnomes", "shorts":["gvg"],"code":"GVG","stringShort":"GvG"},
@@ -40,6 +44,8 @@
 
         "Ashes of Outland":{"name":"Ashes of Outland", "shorts":["ao","aoo","ashes"],"code":"BT","stringShort":"AoO"},
 
+        "Demon Hunter Initiate":{"name":"Demon Hunter Initiate", "shorts":[],"code":"BT","stringShort":"DHI"},
+
         "Scholomance Academy":{"name":"Scholomance Academy", "shorts":["sa","scholo"],"code":"SCH","stringShort":"SA"},
 
         "Madness at the Darkmoon Faire":{"name":"Madness at the Darkmoon Faire", "shorts":["dmf"],"code":"DMF","stringShort":"MaDF"},
@@ -68,6 +74,8 @@
 
         "March of the Lich King":{"name":"March of the Lich King","shorts":["mlk"],"code":"RLK","stringShort":"MotLK"},
 
+        "Path of Arthas":{"name":"Path of Arthas","shorts":[],"code":"RLK","stringShort":"PoA"},
+
         "Return to Naxxramas":{"name":"Return to Naxxramas","code":"NX2","stringShort":"RtN"},
 
         "Festival of Legends":{"name":"Festival of Legends","shorts":["fol"],"code":"ETC","stringShort":"FoL"},
@@ -80,7 +88,7 @@
 
         "Fall of Ulduar":{"name":"Fall of Ulduar","code":"YOG","stringShort":"FoU"},
 
-        "Showdown in the Badlands":{"name":"Showdown in the Badlands","code":"UPCOMING","stringShort":"SitB"}
+        "Showdown in the Badlands":{"name":"Showdown in the Badlands","code":"WW","stringShort":"SitB"}
     },
     "battlegrounds":{
         "battlegrounds":{"name":"Battlegrounds","short":"BG"},
