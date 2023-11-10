@@ -31,7 +31,7 @@ Nuller = "null"
 def response_formatting(x):
     topDeckID = x['name'].lower().replace(" ", "-")
     #Needs both capword and tilte since title capitalized after -
-    wikiID = string.capwords(x['name'].lower()).replace(" ", "_").title()
+    wikiID = string.capwords(x['name'].lower()).replace(" ", "_").title().replace('_The','_the')
     #x['hearthpwnID'] where 2 is
     returnVal = f"""* [{x['name']}]({x['image']}) {x['class']} {x['type']} {x['rarity']} {constants['sets'][x['set']]['stringShort']} ^[HP](https://www.hearthpwn.com/cards/2), ^[TD](https://www.hearthstonetopdecks.com/cards/{topDeckID}/), ^[W](https://hearthstone.wiki.gg/wiki/{wikiID}) \n\n {x['cost']}"""
     if x['type'] == 'Minion':
@@ -74,7 +74,7 @@ def check_inbox():
     except Exception as e:
         print("ERROR ERROR error")
 def check_subreddit():
-    for comment in subreddit.stream.comments():#skip_existing=True
+    for comment in subreddit.stream.comments(skip_existing=True):
         if not comment.saved and comment.author !=  keys['username']:
             response_list = []
             max_counter = 0
@@ -100,12 +100,14 @@ def respond(msg_to_respond, response):
     except Exception as e:
         print(f"\t### ERROR - COULDN'T REPLY TO MESSAGE.\n\t{e}")
 
-
+times = 0
 #Run the bot
 while True:
     #Something to run
     #check_inbox()
+    print(times)
     check_subreddit()
+    times += 1
     #Time to check again
     sleep(sleep_time)
     
