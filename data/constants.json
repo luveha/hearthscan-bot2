@@ -2,7 +2,11 @@
     "sets": {
         "Dream":{"name":"Dream","code":"DREAM","stringShort":"Legacy"},
 
-        "Legacy":{"name":"Legacy", "shorts":[],"code":null,"stringShort":"Core"},
+        "Legacy":{"name":"Legacy", "shorts":[],"code":null,"stringShort":"Legacy"},
+        
+        "Classic":{"name":"Classic", "shorts":[],"code":null,"stringShort":"Legacy"},
+
+        "Hall of Fame":{"name":"Hall of Fame", "shorts":[],"code":null,"stringShort":"Legacy"},
 
         "Core":{"name":"Core", "shorts":[],"code":"CORE","stringShort":"Core"},
 
