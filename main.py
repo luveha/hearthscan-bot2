@@ -5,9 +5,10 @@ from time import sleep, strftime, localtime
 import json
 import string
 from loadJson import *
+import threading
 
 #Sleep time in seconds
-sleep_time = (120)
+sleep_time = (5)
 #Opening JSON file
 cards = loadJson("data/cards")
 constants = loadJson("data/constants")
@@ -23,36 +24,44 @@ reddit = praw.Reddit(
 # Needs to be false to print "reddit.user.me()"
 reddit.read_only = False
 responseList = []
+endMessage = " \n\n^(Call/)^[PM](https://www.reddit.com/message/compose/?to=hearthscan-bot2) ^me ^with ^up ^to ^7 ^[[cardname]]."
 subreddit = reddit.subreddit(keys['subreddit'])
 print(reddit.user.me())
-
-Nuller = "null"
 
 def response_formatting(x):
     topDeckID = x['name'].lower().replace(" ", "-")
     #Needs both capword and tilte since title capitalized after -
     wikiID = string.capwords(x['name'].lower()).replace(" ", "_").title().replace('_The','_the')
-    #x['hearthpwnID'] where 2 is
-    returnVal = f"""* [{x['name']}]({x['image']}) {x['class']} {x['type']} {x['rarity']} {constants['sets'][x['set']]['stringShort']} ^[HP](https://www.hearthpwn.com/cards/2), ^[TD](https://www.hearthstonetopdecks.com/cards/{topDeckID}/), ^[W](https://hearthstone.wiki.gg/wiki/{wikiID}) \n\n {x['cost']}"""
+    returnString = f"* **[{x['name']}]({x['image']})** {x['class']} {x['type']} "
+    if x['rarity'] != None:
+        returnString += f" {x['rarity']}"
+    returnString += f" {constants['sets'][x['set']]['stringShort']} "
+    #returnString += " ^[HP](https://www.hearthpwn.com/cards/2)," needs to fixed at some point
+    returnString += f" ^[TD](https://www.hearthstonetopdecks.com/cards/{topDeckID}/),"
+    returnString +=  f" ^[W](https://hearthstone.wiki.gg/wiki/{wikiID})"
+    returnString += " \n \n "
+    if x['type'] != 'Portal':
+        returnString += str(x['cost'])
+    else:
+        returnString += '"' + x['type'] + '"'
     if x['type'] == 'Minion':
-        returnVal += f"/{x['atk']}/{x['hp']}"
+        returnString += f"/{x['atk']}/{x['hp']}"
     elif x['type'] == 'Weapon':
-        if x['atk'] != Nuller:
-            returnVal += f"/{x['atk']}/{x['hp']}"
+        if x['atk'] != None:
+            returnString += f"/{x['atk']}/{x['hp']}"
         else:
-            returnVal += f"/-/{x['hp']}"
+            returnString += f"/0/{x['hp']}"
     elif x['type'] == "Spell" or x['type'] == "Hero" or x['type'] == "Hero Power":
-        returnVal += f"/-/-"
+        returnString += f"/-/-"
     elif x['type'] == "Location":
-        returnVal += f"/-/{x['hp']}"
-    if x['subType'] != Nuller:
-        returnVal += f" {x['subType']}"
-    if x['desc'] != Nuller:
-        returnVal += f" | {x['desc']}"
-    return returnVal
+        returnString += f"/-/{x['hp']}"
+    if x['subType'] != None:
+        returnString += f" {x['subType']}"
+    if x['desc'] != None:
+        returnString += f" | {x['desc']}"
+    return returnString
 
 def check_inbox():
-    print("Running - Inbox")
     try:
         for msg in reddit.inbox.unread(limit=50):
             msg_body = msg.body.lower()
@@ -60,19 +69,42 @@ def check_inbox():
             for i in cards:
                 if max_counter >= 7:
                     break
-                if f"[[{cards[i]['name'].lower()}]]" in msg_body:
+                if f"[[{i.lower()}]]" in msg_body:
                     max_counter += 1
                     responseList.append(response_formatting(cards[i]))
             response = ""
-            for z in responseList:
-                response += z + "\n\n"
-            try:
+            if response_list:
+                response = "\n\n".join(response_list)
+                response += endMessage
                 respond(msg, response)
-                msg.mark_read()
-            except Exception as e:
-                continue
+            msg.mark_read()
     except Exception as e:
         print("ERROR ERROR error")
+def checker_inbox():
+    while True:
+        check_inbox()
+        sleep(30)
+def check_submission():
+    for submission in subreddit.stream.submissions(skip_existing=True):
+        if not submission.saved:
+            response_list = []
+            max_counter = 0
+            submission_body = submission.selftext.lower().replace('\\','')
+            for i in cards:
+                if max_counter >= 7:
+                    break
+                if f"[[{i.lower()}]]" in submission_body:       
+                    max_counter += 1
+                    response_list.append(response_formatting(cards[i]))
+            response = ""
+            if response_list:
+                response = "\n\n".join(response_list)
+                response += endMessage
+                submission.reply(response)
+            submission.save()
+        else:
+            submission.save()
+            
 def check_subreddit():
     for comment in subreddit.stream.comments(skip_existing=True):
         if not comment.saved and comment.author !=  keys['username']:
@@ -82,12 +114,13 @@ def check_subreddit():
             for i in cards:
                 if max_counter >= 7:
                     break
-                if f"[[{cards[i]['name'].lower()}]]" in comment_body:
+                if f"[[{i.lower()}]]" in comment_body:       
                     max_counter += 1
-                    response_list .append(response_formatting(cards[i]))
+                    response_list.append(response_formatting(cards[i]))
             response = ""
             if response_list:
                 response = "\n\n".join(response_list)
+                response += endMessage
                 comment.reply(response)
             comment.save()
         else:
@@ -100,14 +133,13 @@ def respond(msg_to_respond, response):
     except Exception as e:
         print(f"\t### ERROR - COULDN'T REPLY TO MESSAGE.\n\t{e}")
 
-times = 0
 #Run the bot
-while True:
-    #Something to run
-    #check_inbox()
-    print(times)
-    check_subreddit()
-    times += 1
-    #Time to check again
-    sleep(sleep_time)
+if True:
+    #Checking
+    t1 = threading.Thread(target=check_submission)
+    t2 = threading.Thread(target=check_subreddit)
+    t3 = threading.Thread(target=checker_inbox)
     
+    t1.start()
+    t2.start()
+    t3.start()

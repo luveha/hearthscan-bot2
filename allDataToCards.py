@@ -16,7 +16,7 @@ def classConvert(i):
     elif not(constants['classes'].get(class1) is None):
         return constants['classes'].get(class1)
     else:
-        return "null"
+        return None
 
 def subtype(i):
     race = i.get('race',None)
@@ -29,13 +29,13 @@ def subtype(i):
     elif spellSchool != None:
         return spellSchool
     else:
-        return "null"
+        return None
 
 def nullTest(i,v):
-    return i.get(v, "null")
+    return i.get(v, None)
 
 def collectableTest(i):
-    if i.get("collectible", "null") != "null":
+    if i.get("collectible", None) != None:
         return True
     else:
         return False
@@ -43,8 +43,8 @@ def collectableTest(i):
 
 def cleanUp(i,v):
     try:
-        if nullTest(i, v) == "null":
-            return "null"
+        if nullTest(i, v) == None:
+            return None
         to_remove = {'\\n': ' ', '<i>': '', '</i>': '', '[x]': '', '<b>': '', '</b>': '', '{0}': '', '{1}': '', '"': "'", '@ ( left!)': '', "@ (Ready!)": '', '$': '', '\\': '', '_': ' ',
                     '</I>':'','   ': ' ','  ':' ','@ |4(copy, copies)':'1 copy'}
         string = i[v]
@@ -52,7 +52,7 @@ def cleanUp(i,v):
             string = string.replace(char, to_remove[char])
         return string
     except Exception as e:
-        return "null"
+        return None
 
 def durORhp(i):
     try:
@@ -60,24 +60,28 @@ def durORhp(i):
             return i['health']
         elif 'durability' in i:
             return i['durability']
-        return "null"
+        return None
     except Exception as e:
-        return "null"
+        return None
 
 def toImage(i):
-    try:
-        start = "https://cards.hearthpwn.com/enUS/"
-        end = ".png"
-        return start + i + end
-    except Exception as e:
-            return "null"
+    start = "https://cards.hearthpwn.com/enUS/"
+    end = ".png"
+    return start + i + end
+
+def toSet(i):
+    if i['cardSet'] in {'Hall of Fame','Classic'}:
+        return 'Legacy'
+    else:
+        return i['cardSet']
+
 #Defines
 x = '{ }'
 z = json.loads(x)
 v = []
 
 #Removing things like adventure cards.
-remove = ['prologue']
+remove = ['prologue','a02','a01','a10','500d','027h','story']
 
 #Gets short hands from sets
 sets = [constants['sets'][h]['code'] for h in constants['sets']]
@@ -90,37 +94,52 @@ for k in cards:
     if k in names:
         for i in cards[k]:
             try:
-                if i['cardId'].split('_')[1].lower() not in remove:
-                    if i['type'] != "Enchantment" and (i['cardId'].split('_')[0].upper() in sets or i['cardSet'] in {'Core','Legacy'}):
+                if i['cardId'].split('_')[1].lower() not in remove and i['cardId'].split('_')[0].lower() not in remove and i['name'] != '???':
+                    if i['type'] != "Enchantment" and (i['cardId'].split('_')[0].upper() in sets or i['cardSet'] in {'Core','Legacy','Hall of Fame','Classic'}):
                         dictionary = {
-                            "id": f"{nullTest(i,'cardId')}",
-                            "name": f"{nullTest(i,'name')}",
-                            "class": f"{classConvert(i)}",
+                            "id": nullTest(i,'cardId'),
+                            "name": nullTest(i,'name'),
+                            "class": classConvert(i),
                             "atk": nullTest(i,'attack'),
                             "hp": durORhp(i),
                             "cost": nullTest(i,'cost'),
                             "desc": cleanUp(i,'text'),
-                            "type": f"{i['type']}",
-                            "subType": f"{subtype(i)}",
-                            "image": f"{toImage(i['cardId'])}",
-                            "set": f"{i['cardSet']}",
-                            "rarity": f"{nullTest(i,'rarity')}",
-                            "collectable": f"{collectableTest(i)}"
+                            "type": i['type'],
+                            "subType": subtype(i),
+                            "image": toImage(i['cardId']),
+                            "set": toSet(i),
+                            "rarity": nullTest(i,'rarity'),
+                            "collectable": collectableTest(i)
                         }
                         if i['name'].lower() not in z:
                             z[i['name'].lower()] = dictionary
-                        if i['cardSet'] == 'Core':
+                        elif i['cardSet'] == 'Core':
                             z[f"{i['name'].lower()} ({z[i['name'].lower()]['set'].lower()})"] = z[i['name'].lower()]
                             z[i['name'].lower()] = dictionary
-                        elif i['cardSet'] != 'Unknown' and z['cardSet'] != i['cardSet']:
-                            z[f"{i['name'].lower()} ({i['cardSet'].lower()})"] = dictionary
+                        elif i['cardSet'] != 'Unknown' and z[i['name'].lower()]['set'].lower() != toSet(i).lower():
+                            z[f"{i['name'].lower()} ({toSet(i).lower()})"] = dictionary
+                        elif z[i['name'].lower()]['set'].lower() == toSet(i).lower() and (i['type'] == 'Hero Power' or z[i['name'].lower()]['type'] == 'Hero Power'):
+                            if z[i['name'].lower()]['type'] == 'Hero Power':
+                                z[f"{i['name'].lower()} ({z[i['name'].lower()]['type'].lower()})"] = z[i['name'].lower()]
+                                z[i['name'].lower()] = dictionary
+                            elif i['type'] == 'Hero Power':
+                                z[f"{i['name'].lower()} ({i['type'].lower()})"]
+                                z[i['name'].lower()] = dictionar
             except IndexError: #Handling known erros
                 continue
-            except KeyError:
+            except KeyError as e:
                 continue
             except Exception as e: #Print errors if new ones arrives
                 print(i['cardId'], type(e).__name__)
                 continue
+
+#Handling weird edge cases like the "untouchables" dormants like imp portals and purified dragon nest
+for cards in z:
+    if z[cards]['atk'] == 0 and z[cards]['hp'] == 1 and z[cards]['cost'] == 11:
+        z[cards]['atk'] = None
+        z[cards]['hp'] = None
+        z[cards]['cost'] = None
+        z[cards]['type'] = 'Portal'
 
 with open("data/cards.json", "w") as f3:
     json.dump(z, f3, indent=4)
