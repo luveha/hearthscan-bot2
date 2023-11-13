@@ -1,0 +1,586 @@
+{
+    "a faire reward": {
+        "id": "BG27_Anomaly_755",
+        "name": "A Faire Reward",
+        "desc": "Instead of a minion, Triple Rewards Discover a Tier Darkmoon Prize. (Improves in |4(turn, turns)!)@Instead of a minion, Triple Rewards Discover a Tier Darkmoon Prize.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/A_Faire_Reward",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/A_Faire_Reward#/media/File:BG27_Anomaly_755_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anomalous bribe": {
+        "id": "BG27_Anomaly_561",
+        "name": "Anomalous Bribe",
+        "desc": "After you sell a minion, give its stats to a minion in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Bribe",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Bribe#/media/File:BG27_Anomaly_561_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anomalous evidence": {
+        "id": "BG27_Anomaly_803",
+        "name": "Anomalous Evidence",
+        "desc": "At the start of your turn, choose from 2 new Quest Rewards.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Evidence",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Evidence#/media/File:BG27_Anomaly_803_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anomalous twin": {
+        "id": "BG27_Anomaly_560",
+        "name": "Anomalous Twin",
+        "desc": "Start of Combat: Summon a copy of your highest-Health minion.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Twin",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Twin#/media/File:BG27_Anomaly_560_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anomalous wisdomball": {
+        "id": "BG27_Anomaly_562",
+        "name": "Anomalous Wisdomball",
+        "desc": "Starting on Turn 6, you occasionally get helpful Refreshes!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Wisdomball",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Wisdomball#/media/File:BG27_Anomaly_562_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anti-gravity stadium": {
+        "id": "BG27_Anomaly_004",
+        "name": "Anti-Gravity Stadium",
+        "desc": "Minions in the Tavern have their Attack and Health swapped.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anti-Gravity_Stadium",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anti-Gravity_Stadium#/media/File:BG27_Anomaly_004_Battlegrounds.png",
+        "isAnom": true
+    },
+    "audience's choice": {
+        "id": "BG27_Anomaly_580",
+        "name": "Audience's Choice",
+        "desc": "At the start of each turn, one player chooses a card for ALL players to get at end of turn.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Audience's_Choice",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Audience's_Choice#/media/File:BG27_Anomaly_580_Battlegrounds.png",
+        "isAnom": true
+    },
+    "big league": {
+        "id": "BG27_Anomaly_100",
+        "name": "Big League",
+        "desc": "Only Tavern Tiers 3, 4, 5, and 6 exist. Start with 10 extra Armor.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Big_League",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Big_League#/media/File:BG27_Anomaly_100_Battlegrounds.png",
+        "isAnom": true
+    },
+    "blessed or blighted": {
+        "id": "BG27_Anomaly_726",
+        "name": "Blessed or Blighted",
+        "desc": "Start of Combat: Give your left-most minion Divine Shield and your right-most minion Reborn.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Blessed_or_Blighted",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Blessed_or_Blighted#/media/File:BG27_Anomaly_726_Battlegrounds.png",
+        "isAnom": true
+    },
+    "blood of sargeras": {
+        "id": "BG27_Anomaly_502",
+        "name": "Blood of Sargeras",
+        "desc": "At the start of your turn, set your hero's Health to 12.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Blood_of_Sargeras",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Blood_of_Sargeras#/media/File:BG27_Anomaly_502_Battlegrounds.png",
+        "isAnom": true
+    },
+    "bring home the bacon": {
+        "id": "BG27_Anomaly_302",
+        "name": "Bring Home the Bacon",
+        "desc": "Start with two upgrading 'Piggy Banks'. Break them open to gain Gold!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Bring_Home_the_Bacon",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Bring_Home_the_Bacon#/media/File:BG27_Anomaly_302_Battlegrounds.png",
+        "isAnom": true
+    },
+    "bring in the buddies": {
+        "id": "BG27_Anomaly_810",
+        "name": "Bring in the Buddies",
+        "desc": "Buddies are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Bring_in_the_Buddies",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Bring_in_the_Buddies#/media/File:BG27_Anomaly_810_Battlegrounds.png",
+        "isAnom": true
+    },
+    "buddies": {
+        "id": "BG27_Anomaly_Buddies",
+        "name": "Buddies",
+        "desc": "Buddies are in this game!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Buddies",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Buddies#/media/File:BG27_Anomaly_Buddies_Battlegrounds.png",
+        "isAnom": true
+    },
+    "curse of aggramar": {
+        "id": "BG27_Anomaly_006",
+        "name": "Curse of Aggramar",
+        "desc": "Start at 5 Health and 5 Gold. Your hero can only take 1 damage at a time.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Curse_of_Aggramar",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Curse_of_Aggramar#/media/File:BG27_Anomaly_006_Battlegrounds.png",
+        "isAnom": true
+    },
+    "darkmoon prizes": {
+        "id": "BG27_Anomaly_Prizes",
+        "name": "Darkmoon Prizes",
+        "desc": "Darkmoon Prizes are in this game!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Darkmoon_Prizes",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Darkmoon_Prizes#/media/File:BG27_Anomaly_Prizes_Battlegrounds.png",
+        "isAnom": true
+    },
+    "deep blue sooner": {
+        "id": "BG27_Anomaly_820",
+        "name": "Deep Blue Sooner",
+        "desc": "At the start of your turn, get 2 temporary 'Deep Blues'. They give a minion more stats each time!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Deep_Blue_Sooner",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Deep_Blue_Sooner#/media/File:BG27_Anomaly_820_Battlegrounds.png",
+        "isAnom": true
+    },
+    "denathrius' anima reserves": {
+        "id": "BG27_Anomaly_822",
+        "name": "Denathrius' Anima Reserves",
+        "desc": "Quests and Rewards are in this game. All heroes are Sire Denathrius.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Denathrius'_Anima_Reserves",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Denathrius'_Anima_Reserves#/media/File:BG27_Anomaly_822_Battlegrounds.png",
+        "isAnom": true
+    },
+    "double header": {
+        "id": "BG27_Anomaly_711",
+        "name": "Double Header",
+        "desc": "The first time you buy a minion each turn, get an extra copy of it.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Double_Header",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Double_Header#/media/File:BG27_Anomaly_711_Battlegrounds.png",
+        "isAnom": true
+    },
+    "echoes of argus": {
+        "id": "BG27_Anomaly_802",
+        "name": "Echoes of Argus",
+        "desc": "Your Battlecries and Deathrattles trigger an extra time.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Echoes_of_Argus",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Echoes_of_Argus#/media/File:BG27_Anomaly_802_Battlegrounds.png",
+        "isAnom": true
+    },
+    "eleventh hour": {
+        "id": "BG27_Anomaly_575t",
+        "name": "Eleventh Hour",
+        "desc": "Secret: The first time your hero takes fatal damage, prevent it and gain 11 Gold next turn instead.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Eleventh_Hour",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Eleventh_Hour#/media/File:BG27_Anomaly_575t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "eonar's overgrown arena": {
+        "id": "BG27_Anomaly_300",
+        "name": "Eonar's Overgrown Arena",
+        "desc": "At the start of your turn, give minions in the Tavern +1/+1 for the rest of the game.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Eonar's_Overgrown_Arena",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Eonar's_Overgrown_Arena#/media/File:BG27_Anomaly_300_Battlegrounds.png",
+        "isAnom": true
+    },
+    "everything's on fire!": {
+        "id": "BG27_Anomaly_714",
+        "name": "Everything's on Fire!",
+        "desc": "At the start of the game, take 25 damage. After another hero dies, regain 5 Health.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Everything's_on_Fire!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Everything's_on_Fire!#/media/File:BG27_Anomaly_714_Battlegrounds.png",
+        "isAnom": true
+    },
+    "false idols": {
+        "id": "BG27_Anomaly_301",
+        "name": "False Idols",
+        "desc": "You only need 2 copies of a minion to make it Golden. Instead of a Triple Reward, get a Gold Coin.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/False_Idols",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/False_Idols#/media/File:BG27_Anomaly_301_Battlegrounds.png",
+        "isAnom": true
+    },
+    "feline fortune": {
+        "id": "BG27_Anomaly_558",
+        "name": "Feline Fortune",
+        "desc": "After another hero dies, Discover a minion from their warband. It keeps enchantments.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Feline_Fortune",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Feline_Fortune#/media/File:BG27_Anomaly_558_Battlegrounds.png",
+        "isAnom": true
+    },
+    "finicky hourglass": {
+        "id": "BG27_Anomaly_001",
+        "name": "Finicky Hourglass",
+        "desc": "Start at Tavern Tier 2.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Finicky_Hourglass",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Finicky_Hourglass#/media/File:BG27_Anomaly_001_Battlegrounds.png",
+        "isAnom": true
+    },
+    "fortitude of khaz'goroth": {
+        "id": "BG27_Anomaly_830",
+        "name": "Fortitude of Khaz'goroth",
+        "desc": "At the end of your turn, set your left and right- most minions' Health to the higher of the two.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Fortitude_of_Khaz'goroth",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Fortitude_of_Khaz'goroth#/media/File:BG27_Anomaly_830_Battlegrounds.png",
+        "isAnom": true
+    },
+    "gladiator's spoils": {
+        "id": "BG27_Anomaly_715",
+        "name": "Gladiator's Spoils",
+        "desc": "After you win a combat, Discover a minion of your Tier. Otherwise, get a random one of a Tier lower.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Gladiator's_Spoils",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Gladiator's_Spoils#/media/File:BG27_Anomaly_715_Battlegrounds.png",
+        "isAnom": true
+    },
+    "golganneth's tempest": {
+        "id": "BG27_Anomaly_900",
+        "name": "Golganneth's Tempest",
+        "desc": "Minions cost 2 Gold. You cannot Refresh the Tavern. It Refreshes itself after you buy a minion.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Golganneth's_Tempest",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Golganneth's_Tempest#/media/File:BG27_Anomaly_900_Battlegrounds.png",
+        "isAnom": true
+    },
+    "grapnel of the titans": {
+        "id": "BG27_Anomaly_303",
+        "name": "Grapnel of the Titans",
+        "desc": "The first minion you buy each turn is free.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Grapnel_of_the_Titans",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Grapnel_of_the_Titans#/media/File:BG27_Anomaly_303_Battlegrounds.png",
+        "isAnom": true
+    },
+    "how to even??": {
+        "id": "BG27_Anomaly_102",
+        "name": "How to Even??",
+        "desc": "Only Tavern Tiers 2, 4, and 6 exist. Triple Rewards Discover a minion of your Tier.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/How_to_Even??",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/How_to_Even??#/media/File:BG27_Anomaly_102_Battlegrounds.png",
+        "isAnom": true
+    },
+    "little league": {
+        "id": "BG27_Anomaly_800",
+        "name": "Little League",
+        "desc": "Only Tavern Tiers 1, 2, 3, and 4 exist.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Little_League",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Little_League#/media/File:BG27_Anomaly_800_Battlegrounds.png",
+        "isAnom": true
+    },
+    "match fixing": {
+        "id": "BG27_Anomaly_805t",
+        "name": "Match Fixing",
+        "desc": "Guess which player will win your next combat.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Match_Fixing",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Match_Fixing#/media/File:BG27_Anomaly_805t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "might of khaz'goroth": {
+        "id": "BG27_Anomaly_719",
+        "name": "Might of Khaz'goroth",
+        "desc": "At the end of your turn, set your left and right- most minions' Attack to the higher of the two.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Might_of_Khaz'goroth",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Might_of_Khaz'goroth#/media/File:BG27_Anomaly_719_Battlegrounds.png",
+        "isAnom": true
+    },
+    "mimiron's clockwork stadium": {
+        "id": "BG27_Anomaly_005",
+        "name": "Mimiron's Clockwork Stadium",
+        "desc": "You cannot upgrade the Tavern with Gold. It upgrades itself every 2 turns. ( |4(turn, turns) left!)@You cannot upgrade the Tavern with Gold. It upgrades itself every 2 turns. (Done!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Mimiron's_Clockwork_Stadium",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Mimiron's_Clockwork_Stadium#/media/File:BG27_Anomaly_005_Battlegrounds.png",
+        "isAnom": true
+    },
+    "money match": {
+        "id": "BG27_Anomaly_000",
+        "name": "Money Match",
+        "desc": "Start at 10 Gold.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Money_Match",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Money_Match#/media/File:BG27_Anomaly_000_Battlegrounds.png",
+        "isAnom": true
+    },
+    "nguyen's shifting disks": {
+        "id": "BG27_Anomaly_720",
+        "name": "Nguyen's Shifting Disks",
+        "desc": "All heroes are Master Nguyen.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Nguyen's_Shifting_Disks",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Nguyen's_Shifting_Disks#/media/File:BG27_Anomaly_720_Battlegrounds.png",
+        "isAnom": true
+    },
+    "no face, no case": {
+        "id": "BG27_Anomaly_577",
+        "name": "No Face, No Case",
+        "desc": "Every 4 turns, get a 'Faceless Manipulator' that copies a minion of your choice. (@ |4(turn, turns) left!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/No_Face,_No_Case",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/No_Face,_No_Case#/media/File:BG27_Anomaly_577_Battlegrounds.png",
+        "isAnom": true
+    },
+    "no place like holmes": {
+        "id": "BG27_Anomaly_555t",
+        "name": "No Place Like Holmes",
+        "desc": "Guess which minion your next opponent had last combat.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/No_Place_Like_Holmes",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/No_Place_Like_Holmes#/media/File:BG27_Anomaly_555t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all beasts!": {
+        "id": "BG27_Anomaly_104t",
+        "name": "Oops, All Beasts!",
+        "desc": "Only Beasts are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Beasts!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Beasts!#/media/File:BG27_Anomaly_104t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all demons!": {
+        "id": "BG27_Anomaly_104t2",
+        "name": "Oops, All Demons!",
+        "desc": "Only Demons are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Demons!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Demons!#/media/File:BG27_Anomaly_104t2_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all dragons!": {
+        "id": "BG27_Anomaly_104t3",
+        "name": "Oops, All Dragons!",
+        "desc": "Only Dragons are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Dragons!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Dragons!#/media/File:BG27_Anomaly_104t3_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all elementals!": {
+        "id": "BG27_Anomaly_104t4",
+        "name": "Oops, All Elementals!",
+        "desc": "Only Elementals are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Elementals!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Elementals!#/media/File:BG27_Anomaly_104t4_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all evil!": {
+        "id": "BG27_Anomaly_307",
+        "name": "Oops, All EVIL!",
+        "desc": "Only evil are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_EVIL!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_EVIL!#/media/File:BG27_Anomaly_307_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all mechs!": {
+        "id": "BG27_Anomaly_104t5",
+        "name": "Oops, All Mechs!",
+        "desc": "Only Mechs are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Mechs!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Mechs!#/media/File:BG27_Anomaly_104t5_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all murlocs!": {
+        "id": "BG27_Anomaly_104t6",
+        "name": "Oops, All Murlocs!",
+        "desc": "Only Murlocs are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Murlocs!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Murlocs!#/media/File:BG27_Anomaly_104t6_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all naga!": {
+        "id": "BG27_Anomaly_104t7",
+        "name": "Oops, All Naga!",
+        "desc": "Only Naga are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Naga!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Naga!#/media/File:BG27_Anomaly_104t7_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all pirates!": {
+        "id": "BG27_Anomaly_104t10",
+        "name": "Oops, All Pirates!",
+        "desc": "Only Pirates are in the Tavern. 'Cap'n Hoggarr' is in the minion pool.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Pirates!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Pirates!#/media/File:BG27_Anomaly_104t10_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all quilboar!": {
+        "id": "BG27_Anomaly_104t8",
+        "name": "Oops, All Quilboar!",
+        "desc": "Only Quilboar are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Quilboar!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Quilboar!#/media/File:BG27_Anomaly_104t8_Battlegrounds.png",
+        "isAnom": true
+    },
+    "oops, all undead!": {
+        "id": "BG27_Anomaly_104t9",
+        "name": "Oops, All Undead!",
+        "desc": "Only Undead are in the Tavern.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Undead!",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Oops,_All_Undead!#/media/File:BG27_Anomaly_104t9_Battlegrounds.png",
+        "isAnom": true
+    },
+    "overseer's orb": {
+        "id": "BG27_Anomaly_718",
+        "name": "Overseer's Orb",
+        "desc": "After you upgrade the Tavern, Refresh it with minions of your most common type.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Overseer's_Orb",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Overseer's_Orb#/media/File:BG27_Anomaly_718_Battlegrounds.png",
+        "isAnom": true
+    },
+    "packed stands": {
+        "id": "BG27_Anomaly_750",
+        "name": "Packed Stands",
+        "desc": "The Tavern always has 7 minions.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Packed_Stands",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Packed_Stands#/media/File:BG27_Anomaly_750_Battlegrounds.png",
+        "isAnom": true
+    },
+    "path of the treasure-seeker": {
+        "id": "BG27_Anomaly_754",
+        "name": "Path of the Treasure-Seeker",
+        "desc": "After you Refresh 5 times, find the Golden Monkey! (@ left!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Path_of_the_Treasure-Seeker",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Path_of_the_Treasure-Seeker#/media/File:BG27_Anomaly_754_Battlegrounds.png",
+        "isAnom": true
+    },
+    "perfected alchemy": {
+        "id": "BG27_Anomaly_751",
+        "name": "Perfected Alchemy",
+        "desc": "Start with a 'Goldenizer' that makes a friendly minion Golden.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Perfected_Alchemy",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Perfected_Alchemy#/media/File:BG27_Anomaly_751_Battlegrounds.png",
+        "isAnom": true
+    },
+    "prudence of amitus": {
+        "id": "BG27_Anomaly_002",
+        "name": "Prudence of Amitus",
+        "desc": "Unspent Gold carries over to your next turn. If you saved at least 5, gain 1 extra.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Prudence_of_Amitus",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Prudence_of_Amitus#/media/File:BG27_Anomaly_002_Battlegrounds.png",
+        "isAnom": true
+    },
+    "quests": {
+        "id": "BG27_Anomaly_Quests",
+        "name": "Quests",
+        "desc": "Quests and Rewards are in this game!",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Quests",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Quests#/media/File:BG27_Anomaly_Quests_Battlegrounds.png",
+        "isAnom": true
+    },
+    "reckless enhancement": {
+        "id": "BG27_Anomaly_505",
+        "name": "Reckless Enhancement",
+        "desc": "Minions in the Tavern each randomly gain Taunt, Windfury, Divine Shield, or Reborn.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Reckless_Enhancement",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Reckless_Enhancement#/media/File:BG27_Anomaly_505_Battlegrounds.png",
+        "isAnom": true
+    },
+    "secrets of norgannon": {
+        "id": "BG27_Anomaly_504",
+        "name": "Secrets of Norgannon",
+        "desc": "Tavern Tier 7 exists. Start with 10 extra Armor.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Secrets_of_Norgannon",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Secrets_of_Norgannon#/media/File:BG27_Anomaly_504_Battlegrounds.png",
+        "isAnom": true
+    },
+    "shackles of the primus": {
+        "id": "BG27_Anomaly_724",
+        "name": "Shackles of the Primus",
+        "desc": "After each combat, remove your warband. At the start of your turn, triple your Gold.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Shackles_of_the_Primus",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Shackles_of_the_Primus#/media/File:BG27_Anomaly_724_Battlegrounds.png",
+        "isAnom": true
+    },
+    "summoning of champions": {
+        "id": "BG27_Anomaly_723",
+        "name": "Summoning of Champions",
+        "desc": "At the start of the game, all players Discover a Tier 6 minion from the same choices.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Summoning_of_Champions",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Summoning_of_Champions#/media/File:BG27_Anomaly_723_Battlegrounds.png",
+        "isAnom": true
+    },
+    "tavern special": {
+        "id": "BG27_Anomaly_103",
+        "name": "Tavern Special",
+        "desc": "All minion types are in the Tavern. It always has 7 minions.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Tavern_Special",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Tavern_Special#/media/File:BG27_Anomaly_103_Battlegrounds.png",
+        "isAnom": true
+    },
+    "temperance of aman'thul": {
+        "id": "BG27_Anomaly_501",
+        "name": "Temperance of Aman'Thul",
+        "desc": "Start at Tavern Tier 4. Gain 10 extra Gold on your first turn only.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Temperance_of_Aman'Thul",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Temperance_of_Aman'Thul#/media/File:BG27_Anomaly_501_Battlegrounds.png",
+        "isAnom": true
+    },
+    "the golden arena": {
+        "id": "BG27_Anomaly_801",
+        "name": "The Golden Arena",
+        "desc": "ALL minions are Golden, but you do not get Triple Rewards.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Golden_Arena",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Golden_Arena#/media/File:BG27_Anomaly_801_Battlegrounds.png",
+        "isAnom": true
+    },
+    "the keys to victory": {
+        "id": "BG27_Anomaly_753",
+        "name": "The Keys to Victory",
+        "desc": "After you play a minion, give your other minions +1/+1 for each Keyword they share with it.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Keys_to_Victory",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Keys_to_Victory#/media/File:BG27_Anomaly_753_Battlegrounds.png",
+        "isAnom": true
+    },
+    "the yogg-iseum": {
+        "id": "BG27_Anomaly_503",
+        "name": "The Yogg-iseum",
+        "desc": "At the start of each turn, spin the SAME Wheel of the Yogg-Saron.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Yogg-iseum",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/The_Yogg-iseum#/media/File:BG27_Anomaly_503_Battlegrounds.png",
+        "isAnom": true
+    },
+    "treasure hoard": {
+        "id": "BG27_Anomaly_572",
+        "name": "Treasure Hoard",
+        "desc": "On Turn 5, Discover a Golden Tier 3 minion. ( |4(turn, turns) left!)@On Turn 5, Discover a Golden Tier 3 minion. (Done!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Treasure_Hoard",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Treasure_Hoard#/media/File:BG27_Anomaly_572_Battlegrounds.png",
+        "isAnom": true
+    },
+    "uncompensated upset": {
+        "id": "BG27_Anomaly_721",
+        "name": "Uncompensated Upset",
+        "desc": "Start at 1 Gold. Minions cost (1) but sell for (0). Upgrading the Tavern costs (2) less.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Uncompensated_Upset",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Uncompensated_Upset#/media/File:BG27_Anomaly_721_Battlegrounds.png",
+        "isAnom": true
+    },
+    "up-prizing": {
+        "id": "BG27_Anomaly_716",
+        "name": "Up-Prizing",
+        "desc": "After you upgrade the Tavern, Discover a Tier Darkmoon Prize. (Improves in |4(turn, turns)!)@After you upgrade the Tavern, Discover a Tier Darkmoon Prize.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Up-Prizing",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Up-Prizing#/media/File:BG27_Anomaly_716_Battlegrounds.png",
+        "isAnom": true
+    },
+    "valuation inflation": {
+        "id": "BG27_Anomaly_556",
+        "name": "Valuation Inflation",
+        "desc": "Tavern Tier 1 does not exist. Minions cost Gold equal to their Tier.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Valuation_Inflation",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Valuation_Inflation#/media/File:BG27_Anomaly_556_Battlegrounds.png",
+        "isAnom": true
+    },
+    "what are the odds?": {
+        "id": "BG27_Anomaly_101",
+        "name": "What Are the Odds?",
+        "desc": "Only Tavern Tiers 1, 3, and 5 exist. Triple Rewards Discover a minion of your Tier.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/What_Are_the_Odds?",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/What_Are_the_Odds?#/media/File:BG27_Anomaly_101_Battlegrounds.png",
+        "isAnom": true
+    },
+    "wisdom of ulduar": {
+        "id": "BG27_Anomaly_717",
+        "name": "Wisdom of Ulduar",
+        "desc": "At the end of every 3 turns, set your right-most minion's stats to 15/15. ( |4(turn, turns) left!)@At the end of every 3 turns, set your right-most minion's stats to 15/15. (End of this turn!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Wisdom_of_Ulduar",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Wisdom_of_Ulduar#/media/File:BG27_Anomaly_717_Battlegrounds.png",
+        "isAnom": true
+    },
+    "anomalous evidence activation [dnt]": {
+        "id": "BG27_Anomaly_803t",
+        "name": "Anomalous Evidence Activation [DNT]",
+        "desc": "Trigger Anomalous Evidence - Choose from 2 Quest Rewards. [DNT]",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Evidence_Activation_[DNT]",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Anomalous_Evidence_Activation_[DNT]#/media/File:BG27_Anomaly_803t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "piggy bank": {
+        "id": "BG27_Anomaly_302t",
+        "name": "Piggy Bank",
+        "desc": "Gain @ Gold. (Upgrades each turn!)",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Piggy_Bank",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Piggy_Bank#/media/File:BG27_Anomaly_302t_Battlegrounds.png",
+        "isAnom": true
+    },
+    "triple reward": {
+        "id": "BG27_Anomaly_755t",
+        "name": "Triple Reward",
+        "desc": "Discover a Tier @ Darkmoon Prize.",
+        "wiki": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Triple_Reward",
+        "image": "https://hearthstone.wiki.gg/wiki/Battlegrounds/Triple_Reward#/media/File:BG27_Anomaly_755t_Battlegrounds.png",
+        "isAnom": true
+    }
+}
