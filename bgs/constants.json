@@ -1,0 +1,547 @@
+{
+    "A. F. Kay": {
+        "heropower": "Procrastinate",
+        "desc": "Passive. Skip your first two turns. Start with two minions from Tier 3.",
+        "altName": "afk",
+        "name": "A. F. Kay"
+    },
+    "Al'Akir": {
+        "heropower": "Swatting Insects",
+        "desc": "Passive. Start of Combat: Give your left-most minion Windfury, Divine Shield, and Taunt.",
+        "name": "Al'Akir"
+    },
+    "Alexstrasza": {
+        "heropower": "Queen of Dragons",
+        "desc": "Passive. After you upgrade the Tavern to Tier 5, Discover two Dragons of any Tier.",
+        "name": "Alexstrasza"
+    },
+    "Ambassador Faelin": {
+        "heropower": "Expedition Plans",
+        "desc": "Passive. Skip your first turn. Discover a Tier 2, 4, and 6 minion to get at those Tiers.",
+        "altName": "Faelin",
+        "name": "Ambassador Faelin"
+    },
+    "Aranna Starseeker": {
+        "heropower": "Demon Hunter Training",
+        "desc": "Passive. After 14 friendly minions attack, the first minion you buy each turn is free. (14 left!)",
+        "altName": "Aranna",
+        "name": "Aranna Starseeker"
+    },
+    "Arch-Villain Rafaam": {
+        "heropower": "I'll Take That!",
+        "desc": "Next combat, get a plain copy of the first minion you kill.",
+        "altName": "Rafaam",
+        "name": "Arch-Villain Rafaam"
+    },
+    "Bru'kan": {
+        "heropower": "Embrace the Elements",
+        "desc": "Choose an Element. Start of Combat: Call upon that Element.",
+        "altName": "brukan",
+        "name": "Bru'kan"
+    },
+    "C'Thun": {
+        "heropower": "Saturday C'Thuns!",
+        "desc": " At end of turn, give a friendly minion +1/+1. Repeat 0 times. (Upgrades each turn!)",
+        "altName": "cthun",
+        "name": "C'Thun"
+    },
+    "Cap'n Hoggarr": {
+        "heropower": "I'm the Cap'n Now",
+        "desc": "Passive. After you buy a Pirate, gain 1 Gold.",
+        "altName": "hoggarr",
+        "name": "Cap'n Hoggarr"
+    },
+    "Captain Eudora": {
+        "heropower": "Buried Treasure",
+        "desc": "Dig for a Golden minion! (5 Digs left.)",
+        "altName": "Eudora",
+        "name": "Captain Eudora"
+    },
+    "Captain Hooktusk": {
+        "heropower": "Trash for Treasure",
+        "desc": "Remove a friendly minion. Choose one of two from a Tier lower to keep.",
+        "altName": "Hooktusk",
+        "name": "Captain Hooktusk"
+    },
+    "Cariel Roame": {
+        "heropower": "Conviction",
+        "desc": "Give 2 friendly minions +1/+1. (After you upgrade the Tavern, choose an improvement!)",
+        "altName": "Cariel",
+        "name": "Cariel Roame"
+    },
+    "Chenvaala": {
+        "heropower": "Avalanche",
+        "desc": "After you play 3 Elementals, reduce the Cost of upgrading the Tavern by (3).",
+        "name": "Chenvaala"
+    },
+    "Cookie the Cook": {
+        "heropower": "Stir the Pot",
+        "desc": " Throw a minion in your pot. When you've gathered 3, Discover from their types. (3 left!)",
+        "altName": "Cookie",
+        "name": "Cookie the Cook"
+    },
+    "Dancin' Deryl": {
+        "heropower": "Hat Trick",
+        "desc": " Passive. When you buy a minion, give it a +1/+1 hat that passes to a friendly minion when sold.",
+        "altName": "Deryl",
+        "name": "Dancin' Deryl"
+    },
+    "Death Speaker Blackthorn": {
+        "heropower": "Bloodbound",
+        "desc": "Get 2 Blood Gems. (Twice per turn.)",
+        "altName": "Blackthorn",
+        "name": "Death Speaker Blackthorn"
+    },
+    "Deathwing": {
+        "heropower": "ALL Will Burn!",
+        "desc": "Start of Combat: Give ALL minions +2 Attack permanently.",
+        "name": "Deathwing"
+    },
+    "Dinotamer Brann": {
+        "heropower": "Battle Brand",
+        "desc": " Passive. After you buy 5 Battlecry minions, get 'Brann Bronzebeard'. (Once per game.)",
+        "name": "Dinotamer Brann"
+    },
+    "Drek'Thar": {
+        "heropower": "Lead the Frostwolves",
+        "desc": "Avenge (2): Give your minions +1 Attack permanently.",
+        "altName": "Drekthar",
+        "name": "Drek'Thar"
+    },
+    "E.T.C., Band Manager": {
+        "heropower": "Sign a New Artist",
+        "desc": "Discover a Buddy. (Unlocks at Tier 2.)",
+        "altName": "ETC",
+        "name": "E.T.C., Band Manager"
+    },
+    "Edwin VanCleef": {
+        "heropower": "Sharpen Blades",
+        "desc": "Give a minion +1/+1. Upgrades after you buy 4 minions. (4 left!)",
+        "altName": "Edwin",
+        "name": "Edwin VanCleef"
+    },
+    "Elise Starseeker": {
+        "heropower": "Lead Explorer",
+        "desc": " Discover a minion from your Tier. Costs (1) more after each use.",
+        "altName": "Elise",
+        "name": "Elise Starseeker"
+    },
+    "Enhance-o Mechano": {
+        "heropower": "Enhancification",
+        "desc": "Passive. After each Refresh, give a minion in the Tavern Taunt, Windfury, Reborn, or Divine Shield.",
+        "name": "Enhance-o Mechano"
+    },
+    "Forest Warden Omu": {
+        "heropower": "Everbloom",
+        "desc": "Passive After you upgrade the Tavern, gain 2 Gold.",
+        "altName": "Omu",
+        "name": "Forest Warden Omu"
+    },
+    "Fungalmancer Flurgl": {
+        "heropower": "Gone Fishing",
+        "desc": "Passive. After you sell 5 minions, get a random Murloc. (5 left!)",
+        "altName": "Flurgl",
+        "name": "Fungalmancer Flurgl"
+    },
+    "Galakrond": {
+        "heropower": "Galakrond's Greed",
+        "desc": "Choose a minion in the Tavern. Discover a higher Tier minion to replace it.",
+        "name": "Galakrond"
+    },
+    "Galewing": {
+        "heropower": "Dungar's Gryphon",
+        "desc": "Choose a new flightpath. Complete it to get a bonus!",
+        "name": "Galewing"
+    },
+    "George the Fallen": {
+        "heropower": "Boon of Light",
+        "desc": "Give a minion Divine Shield.",
+        "altName": "George",
+        "name": "George the Fallen"
+    },
+    "Greybough": {
+        "heropower": "Sprout It Out!",
+        "desc": "Passive Give +1/+2 and Taunt to minions you summon during combat.",
+        "name": "Greybough"
+    },
+    "Guff Runetotem": {
+        "heropower": "Natural Balance",
+        "desc": "Give a friendly minion of each Tier +2/+2.",
+        "altName": "Guff",
+        "name": "Guff Runetotem"
+    },
+    "Heistbaron Togwaggle": {
+        "heropower": "The Perfect Crime",
+        "desc": "Steal all minions from the Tavern. Each turn, your next Hero Power costs (1) less.",
+        "altName": "Togwaggle",
+        "name": "Heistbaron Togwaggle"
+    },
+    "Illidan Stormrage": {
+        "heropower": "Wingmen",
+        "desc": "Passive. Start of Combat: Your left and right-most minions gain +2/+1 and attack immediately.",
+        "altName": "Illidan",
+        "name": "Illidan Stormrage"
+    },
+    "Infinite Toki": {
+        "heropower": "Temporal Tavern",
+        "desc": "Refresh the Tavern. Include two minions from a Tier higher than yours.",
+        "altName": "Toki",
+        "name": "Infinite Toki"
+    },
+    "Inge, the Iron Hymn": {
+        "heropower": "Major Hymn",
+        "desc": "Give a minion Attack equal to your Tier. (Swaps to Health next turn!)",
+        "altName": "Inge",
+        "name": "Inge, the Iron Hymn"
+    },
+    "Ini Stormcoil": {
+        "heropower": "MechGyver",
+        "desc": "Passive. After 10 friendly minions die, get a random Mech.",
+        "altName": "Ini",
+        "name": "Ini Stormcoil"
+    },
+    "Jandice Barov": {
+        "heropower": "Swap, Lock, & Shop It",
+        "desc": "Swap a friendly non-Golden minion with a random one in the Tavern.",
+        "altName": "Jandice",
+        "name": "Jandice Barov"
+    },
+    "Kael'thas Sunstrider": {
+        "heropower": "Verdant Spheres",
+        "desc": "Passive. Every third minion you play gains +2/+2.",
+        "altName": "Kaelthas",
+        "name": "Kael'thas Sunstrider"
+    },
+    "King Mukla": {
+        "heropower": "Bananarama",
+        "desc": "Passive At the start of your turn, get 2 Bananas and give everyone else one.",
+        "altName": "Mukla",
+        "name": "King Mukla"
+    },
+    "Kurtrus Ashfallen": {
+        "heropower": "Glaive Ricochet",
+        "desc": "Passive. Once per turn, after you buy 3 minions, get a plain copy of one of them. (3 left!)",
+        "altName": "Kurtrus",
+        "name": "Kurtrus Ashfallen"
+    },
+    "Lady Vashj": {
+        "heropower": "Relics of the Deep",
+        "desc": "Discover a Spellcraft spell of your Tier or lower. Its effect is permanent.",
+        "altName": "Vashj",
+        "name": "Lady Vashj"
+    },
+    "Lich Baz'hial": {
+        "heropower": "Graveyard Shift",
+        "desc": "Steal a minion from the Tavern. Take damage equal to its Tier.",
+        "altName": "Bazhial",
+        "name": "Lich Baz'hial"
+    },
+    "Lord Jaraxxus": {
+        "heropower": "Bloodfury",
+        "desc": "Choose a friendly Demon. It consumes a minion in the Tavern to gain its stats.",
+        "altName": "Jaraxxus",
+        "name": "Lord Jaraxxus"
+    },
+    "Maiev Shadowsong": {
+        "heropower": "Imprison",
+        "desc": "Make a minion in the Tavern Dormant. After 3 turns, get it with +2/+2.",
+        "altName": "Maiev",
+        "name": "Maiev Shadowsong"
+    },
+    "Malygos": {
+        "heropower": "Arcane Alteration",
+        "desc": "Replace a minion with a random one of the same Tier. (Twice per turn.)",
+        "name": "Malygos"
+    },
+    "Master Nguyen": {
+        "heropower": "Power of the Storm",
+        "desc": "Passive. At the start of every turn, choose from 2 new Hero Powers.",
+        "altName": "Nguyen",
+        "name": "Master Nguyen"
+    },
+    "Millhouse Manastorm": {
+        "heropower": "Manastorm",
+        "desc": "Passive. Minions and Refreshes cost 2 Gold. Upgrading the Tavern costs (1) more.",
+        "altName": "Millhouse",
+        "name": "Millhouse Manastorm"
+    },
+    "Millificent Manastorm": {
+        "heropower": "Tinker",
+        "desc": "Passive. Whenever you summon a Mech, give it +2 Attack.",
+        "name": "Millificent Manastorm"
+    },
+    "Mr. Bigglesworth": {
+        "heropower": "Kel'Thuzad's Kitty",
+        "desc": "Passive. After another hero dies, Discover a minion from their warband. It keeps enchantments.",
+        "altName": "Bigglesworth",
+        "name": "Mr. Bigglesworth"
+    },
+    "Murloc Holmes": {
+        "heropower": "Detective for Hire",
+        "desc": "Look at 2 minions. Guess which one your next opponent had last combat for a Coin.",
+        "name": "Murloc Holmes"
+    },
+    "Mutanus the Devourer": {
+        "heropower": "Devour",
+        "desc": "Remove a friendly minion. Spit its stats onto another. Gain 1 Gold.",
+        "altName": "Mutanus",
+        "name": "Mutanus the Devourer"
+    },
+    "N'Zoth": {
+        "heropower": "Avatar of N'Zoth",
+        "desc": "Passive. Start the game with a 2/2 Fish that gains all your Deathrattles in combat.",
+        "altName": "NZoth",
+        "name": "N'Zoth"
+    },
+    "Nozdormu": {
+        "heropower": "Clairvoyance",
+        "desc": "Passive. Your first Refresh each turn costs (0).",
+        "name": "Nozdormu"
+    },
+    "Onyxia": {
+        "heropower": "Broodmother",
+        "desc": "Passive. Avenge (3): Summon a 3/1 Whelp. It attacks immediately.",
+        "name": "Onyxia"
+    },
+    "Overlord Saurfang": {
+        "heropower": "For the Horde!",
+        "desc": "Give a minion in the Tavern +2/1+. (Doubles every 3 turns!)",
+        "altName": "Saurfang",
+        "name": "Overlord Saurfang"
+    },
+    "Ozumat": {
+        "heropower": "Tentacular",
+        "desc": "Passive. Start of Combat: Summon a 2/2 Tentacle with Taunt. (Gains +1/+1 after you sell a minion!)",
+        "name": "Ozumat"
+    },
+    "Patches the Pirate": {
+        "heropower": "Pirate Parrrrty!",
+        "desc": "Get a Pirate. After you buy a Pirate, your next Hero Power costs (1) less.",
+        "altName": "Patches",
+        "name": "Patches the Pirate"
+    },
+    "Patchwerk": {
+        "heropower": "All Patched Up",
+        "desc": "Passive. Start with 60 Health instead of 30.",
+        "name": "Patchwerk"
+    },
+    "Professor Putricide": {
+        "heropower": "Build-An-Undead",
+        "desc": "Craft a custom Undead. (3 Creations left!)",
+        "altName": "Putricide",
+        "name": "Professor Putricide"
+    },
+    "Pyramad": {
+        "heropower": "Brick by Brick",
+        "desc": "Give a minion +1 Health. (Gains +1 Health each turn you don't use this!)",
+        "name": "Pyramad"
+    },
+    "Queen Azshara": {
+        "heropower": "Azshara's Ambition",
+        "desc": "Passive. When your warband reaches 25 total Attack, begin your Naga Conquest.",
+        "altName": "Azshara",
+        "name": "Queen Azshara"
+    },
+    "Queen Wagtoggle": {
+        "heropower": "Wax Warband",
+        "desc": "Passive. Start of Combat: Give a friendly minion of each type stats equal to its Tier.",
+        "altName": "Wagtoggle",
+        "name": "Queen Wagtoggle"
+    },
+    "Ragnaros the Firelord": {
+        "heropower": "DIE, INSECTS!",
+        "desc": "Passive. After you kill 25 enemy minions, get Sulfuras. (25 left!)",
+        "altName": "Ragnaros",
+        "name": "Ragnaros the Firelord"
+    },
+    "Rakanishu": {
+        "heropower": "Tavern Lighting",
+        "desc": "Give a minion stats equal to your Tier.",
+        "name": "Rakanishu"
+    },
+    "Reno Jackson": {
+        "heropower": "Gonna Be Rich!",
+        "desc": "Make a friendly minion Golden. (Once per game.)",
+        "altName": "Reno",
+        "name": "Reno Jackson"
+    },
+    "Rock Master Voone": {
+        "heropower": "Upbeat Harmony",
+        "desc": "Passive. At the end of every 3 turns, get a plain copy of the left-most card in your hand. (3 turns left!)",
+        "altName": "Voone",
+        "name": "Rock Master Voone"
+    },
+    "Rokara": {
+        "heropower": "Glory of Combat",
+        "desc": "Passive. After a friendly minion kills an enemy, give it +1 Attack permanently.",
+        "name": "Rokara"
+    },
+    "Scabbs Cutterbutter": {
+        "heropower": "I Spy",
+        "desc": "Discover a plain copy of a minion from your next opponent's warband.",
+        "altName": "Scabbs",
+        "name": "Scabbs Cutterbutter"
+    },
+    "Shudderwock": {
+        "heropower": "Snicker-snack",
+        "desc": "Trigger a friendly minion's Battlecry.",
+        "name": "Shudderwock"
+    },
+    "Silas Darkmoon": {
+        "heropower": "Come One, Come All!",
+        "desc": "Passive. Darkmoon Tickets are in the Tavern! Get 3 to Discover a minion of your Tier.",
+        "altName": "Silas",
+        "name": "Silas Darkmoon"
+    },
+    "Sindragosa": {
+        "heropower": "Stay Frosty",
+        "desc": "Freeze a minion in the Tavern. Passive: At the end of your turn, Frozen minions get +2/+1.",
+        "name": "Sindragosa"
+    },
+    "Sir Finley Mrrgglton": {
+        "heropower": "Adventure!",
+        "desc": "Passive. At the start of the game, Discover a Hero Power.",
+        "altName": "Finley",
+        "name": "Sir Finley Mrrgglton"
+    },
+    "Sire Denathrius": {
+        "heropower": "Whodunit?",
+        "desc": "Passive. At the start of the game, choose one of two Quests.",
+        "altName": "Denathrius",
+        "name": "Sire Denathrius"
+    },
+    "Skycap'n Kragg": {
+        "heropower": "Piggy Bank",
+        "desc": "Gain 1 Gold. Increases each turn. (Once per game.)",
+        "altName": "Kragg",
+        "name": "Skycap'n Kragg"
+    },
+    "Sneed": {
+        "heropower": "Sneed's Replicator",
+        "desc": " Give a minion \"Deathrattle: Summon a random minion from a Tier lower.\"",
+        "name": "Sneed"
+    },
+    "Sylvanas Windrunner": {
+        "heropower": "Reclaimed Souls",
+        "desc": "Give +2/+1 to your minions that died last combat.",
+        "altName": "Sylvanas",
+        "name": "Sylvanas Windrunner"
+    },
+    "Tamsin Roame": {
+        "heropower": "Fragrant Phylactery",
+        "desc": "Start of Combat: Destroy your lowest Health minion. Give its stats to your other minions.",
+        "altName": "Tamsin",
+        "name": "Tamsin Roame"
+    },
+    "Tavish Stormpike": {
+        "heropower": "Deadeye",
+        "desc": "Take aim! Start of Combat: Deal 2 damage to your target. (Doubles every 3 turns!)",
+        "altName": "Tavish",
+        "name": "Tavish Stormpike"
+    },
+    "Teron Gorefiend": {
+        "heropower": "Rapid Reanimation",
+        "desc": "Choose a friendly minion. Start of Combat: Destroy it. When you have space, resummon an exact copy.",
+        "altName": "Teron",
+        "name": "Teron Gorefiend"
+    },
+    "Tess Greymane": {
+        "heropower": "Bob's Burgles",
+        "desc": "Refresh the Tavern with plain copies of your last opponent's warband.",
+        "altName": "Tess",
+        "name": "Tess Greymane"
+    },
+    "The Curator": {
+        "heropower": "Menagerist",
+        "desc": "Passive. Start the game with a 2/2 Amalgam with Venomous and all minion types.",
+        "altName": "Curator",
+        "name": "The Curator"
+    },
+    "The Great Akazamzarak": {
+        "heropower": "Prestidigitation",
+        "desc": "Discover a Secret. Put it into the battlefield.",
+        "altName": "Akazamzarak",
+        "name": "The Great Akazamzarak"
+    },
+    "The Jailer": {
+        "heropower": "Runic Empowerment",
+        "desc": "Give a minion +1/+1. Upgrades after nine friendly minions die. (9 left!)",
+        "altName": "Jailer",
+        "name": "The Jailer"
+    },
+    "The Lich King": {
+        "heropower": "Reborn Rites",
+        "desc": "Give a minion Reborn until next turn.",
+        "altName": "Lich King",
+        "name": "The Lich King"
+    },
+    "The Rat King": {
+        "heropower": "A Tale of Kings",
+        "desc": "Discover a minion of a specific minion type. Swaps type each turn.",
+        "altName": "Rat King",
+        "name": "The Rat King"
+    },
+    "Thorim, Stormlord": {
+        "heropower": "Choose Your Champion",
+        "desc": "Passive. At the start of the game, Discover a Tier 7 minion to get after you spend 65 Gold. (65 left!)",
+        "altName": "Thorim",
+        "name": "Thorim, Stormlord"
+    },
+    "Tickatus": {
+        "heropower": "Prize Wall",
+        "desc": "Passive Every 4 turns, Discover a Darkmoon Prize. (3 turns left!)",
+        "name": "Tickatus"
+    },
+    "Trade Prince Gallywix": {
+        "heropower": "Smart Savings",
+        "desc": "Passive. After you sell a minion, gain 1 Gold next turn.",
+        "altName": "Gallywix",
+        "name": "Trade Prince Gallywix"
+    },
+    "Vanndar Stormpike": {
+        "heropower": "Lead the Stormpikes",
+        "desc": "Passive. Avenge (2): Give your minions +1 Health permanently.",
+        "altName": "Vanndar",
+        "name": "Vanndar Stormpike"
+    },
+    "Varden Dawngrasp": {
+        "heropower": "Twice as Nice",
+        "desc": "Passive. After the Tavern is Refreshed, copy its highest Tier minion and Freeze them both.",
+        "altName": "Varden",
+        "name": "Varden Dawngrasp"
+    },
+    "Vol'jin": {
+        "heropower": "Spirit Swap",
+        "desc": "Choose two minions. Swap their stats.",
+        "altName": "Voljin",
+        "name": "Vol'jin"
+    },
+    "Xyrella": {
+        "heropower": "See the Light",
+        "desc": "Choose a minion in the Tavern. Set its stats to 2 and add it to your hand.",
+        "name": "Xyrella"
+    },
+    "Y'Shaarj": {
+        "heropower": "Embrace Your Rage",
+        "desc": "Start of Combat: Summon and get a minion of your Tier.",
+        "altName": "YShaarj",
+        "name": "Y'Shaarj"
+    },
+    "Yogg-Saron, Hope's End": {
+        "heropower": "Puzzle Box",
+        "desc": "Steal a random minion from the Tavern. Give it +1/+1.",
+        "altName": "Yogg Saron",
+        "name": "Yogg-Saron, Hope's End"
+    },
+    "Ysera": {
+        "heropower": "Dream Portal",
+        "desc": "Passive The Tavern offers an extra Dragon whenever it is Refreshed.",
+        "name": "Ysera"
+    },
+    "Zephrys, the Great": {
+        "heropower": "Three Wishes",
+        "desc": "If you have two copies of a minion, find the third. (3 Wishes left!)",
+        "altName": "Zephrys",
+        "name": "Zephrys, the Great"
+    }
+}
